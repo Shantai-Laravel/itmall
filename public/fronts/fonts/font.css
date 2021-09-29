@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'D-DINExp';
+  src: url('D-DINExp.eot');
+  src: url('D-DINExp.woff2') format('woff2'),
+       url('D-DINExp.woff') format('woff'),
+       url('D-DINExp.ttf') format('truetype'),
+       url('D-DINExp.svg#D-DINExp') format('svg'),
+       url('D-DINExp.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

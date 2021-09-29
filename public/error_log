@@ -1,0 +1,104 @@
+[17-Oct-2018 12:41:58 UTC] PHP Warning:  Uncaught ErrorException: require(/home/toplikemedia/public_html/laravel/app/Http/routes/admin.php): failed to open stream: No such file or directory in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php:63
+Stack trace:
+#0 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(63): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/toplikeme...', 63, Array)
+#1 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(63): require()
+#2 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(64): Illuminate\Routing\Router- in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php on line 63
+[17-Oct-2018 12:41:58 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/toplikemedia/public_html/laravel/app/Http/routes/admin.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php on line 63
+[17-Oct-2018 12:42:59 UTC] PHP Warning:  Uncaught ErrorException: require(/home/toplikemedia/public_html/laravel/app/routes/admin.php): failed to open stream: No such file or directory in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php:63
+Stack trace:
+#0 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(63): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/toplikeme...', 63, Array)
+#1 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(63): require()
+#2 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php(64): Illuminate\Routing\Router->grou in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php on line 63
+[17-Oct-2018 12:42:59 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/toplikemedia/public_html/laravel/app/routes/admin.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/toplikemedia/public_html/laravel/app/Providers/RouteServiceProvider.php on line 63
+[17-Oct-2018 13:55:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/toplikemedia/public_html/lara in /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[17-Oct-2018 13:55:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/toplikemedia/public_html/lara in /home/toplikemedia/public_html/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[17-Oct-2018 14:34:47 UTC] PHP Fatal error:  Cannot use Illuminate\Auth\Authenticatable as Authenticatable because the name is already in use in /home/toplikemedia/public_html/laravel/app/FrontUser.php on line 6
+[17-Oct-2018 14:34:55 UTC] PHP Fatal error:  Class App\FrontUser cannot extend from trait Illuminate\Auth\Authenticatable in /home/toplikemedia/public_html/laravel/app/FrontUser.php on line 8
+[10-Nov-2018 10:28:27 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/toplikemedia/public_html/dmm/app/Http/Controllers/OrderController.php on line 175
+[13-Nov-2018 09:11:09 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/itmall/public_html/app/Http/Controllers/OrderController.php on line 110
+[13-Nov-2018 09:11:57 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/itmall/public_html/app/Http/Controllers/OrderController.php on line 112
+[13-Nov-2018 09:13:47 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/itmall/public_html/app/Http/Controllers/OrderController.php on line 112
+[26-Feb-2019 09:27:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/digitalmall/public_html/app/Support/helpersNew.php on line 321
+[26-Feb-2019 09:27:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/digitalmall/public_html/app/Support/helpersNew.php on line 321
+[19-Apr-2019 13:52:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:54:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:54:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:54:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:55:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:55:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:55:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[19-Apr-2019 13:57:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('config', Array)
+#4 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Foundat in /home/digitalmall/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752

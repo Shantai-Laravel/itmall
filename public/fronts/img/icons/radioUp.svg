@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="22px" viewBox="0 0 16 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="-Main-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-results" transform="translate(-721.000000, -333.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Sort-by" transform="translate(443.000000, 332.000000)">
+                <g id="high-price" transform="translate(278.000000, 1.000000)">
+                    <path d="M11.8234865,18.7593605 C11.5133395,19.0802132 11.0250677,19.0802132 10.7149207,18.7593605 C10.4152517,18.4493474 10.4152517,17.9333815 10.7149207,17.6240911 L16.3359846,11.8089969 L-2.21275768,11.8089969 C-2.64514721,11.8089969 -3,11.4534574 -3,11.0061425 C-3,10.5588275 -2.64514721,10.1917258 -2.21275768,10.1917258 L16.3359846,10.1917258 L10.7149207,4.38747121 C10.4152517,4.06661849 10.4152517,3.54992999 10.7149207,3.24063954 C11.0250677,2.91978682 11.5133395,2.91978682 11.8234865,3.24063954 L18.7752483,10.4323653 C19.0749172,10.7423784 19.0749172,11.2583442 18.7752483,11.5676347 L11.8234865,18.7593605 Z" id="Shape-Copy" transform="translate(8.000000, 11.000000) scale(1, -1) rotate(-270.000000) translate(-8.000000, -11.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Conect" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blog-One-Item" transform="translate(-811.000000, -988.000000)" fill="#0A072C" fill-rule="nonzero">
+            <path d="M820,988 C819.66862,988 819.4,988.268629 819.4,988.6 L819.4,996.400006 L811.6,996.400006 C811.26862,996.400006 811,996.668626 811,997.000006 C811,997.331386 811.26862,997.600006 811.6,997.600006 L819.4,997.600006 L819.4,1005.4 C819.4,1005.73138 819.66862,1006 820,1006 C820.33138,1006 820.6,1005.73138 820.6,1005.4 L820.6,997.600006 L828.4,997.600006 C828.73138,997.600006 829,997.331386 829,997.000006 C829,996.668626 828.73138,996.400006 828.4,996.400006 L820.6,996.400006 L820.6,988.6 C820.6,988.268629 820.33138,988 820,988 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
